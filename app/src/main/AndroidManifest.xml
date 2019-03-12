@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hernandez.proyectoparcialuno">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_iconaplication_dos"
+        android:label="Ladder Shop"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PagInicio">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".principalesmexico"
+            android:label="Categorias" />
+        <activity
+            android:name=".principales_us"
+            android:label="Categories" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ropa_mx"
+            android:label="Ropa"/>
+        <activity android:name=".ropa_us"
+            android:label="Clothing"/>
+        <activity android:name=".juegos_mx"
+            android:label="Videosjuegos"/>
+        <activity android:name=".juegos_us"
+            android:label="Games"/>
+        <activity android:name=".cell_mx"
+            android:label="Celulares"/>
+        <activity android:name=".cell_us"
+            android:label="Phone"></activity>
+    </application>
+
+</manifest>

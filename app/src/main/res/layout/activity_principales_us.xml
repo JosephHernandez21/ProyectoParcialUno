@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4a148c"
+    tools:context=".principales_us">
+
+    <Button
+        android:id="@+id/ropa_us"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="198dp"
+        android:layout_height="94dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginRight="91dp"
+        android:text="Clothing" />
+
+    <Button
+        android:id="@+id/telefonos_us"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="198dp"
+        android:layout_height="94dp"
+        android:layout_below="@+id/ropa_us"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginLeft="94dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginRight="94dp"
+        android:text="Phones" />
+
+    <Button
+        android:id="@+id/videojuegos_us"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="198dp"
+        android:layout_height="94dp"
+        android:layout_below="@+id/telefonos_us"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginLeft="94dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:layout_marginBottom="120dp"
+        android:text="Games" />
+</RelativeLayout>
